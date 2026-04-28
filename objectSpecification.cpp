@@ -23,3 +23,14 @@ class Barang
     }
 
 };
+
+int main()
+{
+    Barang elektronik; // Membuat objek elektronik dari kelas Barang
+    elektronik.nama = "Tablet";
+    elektronik.jumlah = 100;
+    elektronik.kategori = "Elektronik";
+    elektronik.tanggalProduksi = "2026-04-28";
+
+
+}

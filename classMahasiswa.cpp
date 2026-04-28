@@ -7,3 +7,12 @@ class Mahasiswa // Deklarasi kelas Mahasiswa
     int NIM;
     string nama;
     float nilai;
+
+    void printData() // Method untuk menampilkan data mahasiswa
+    {
+        cout << "NIM: " << NIM << endl;
+        cout << "Nama: " << nama << endl;
+        cout << "NIlai: " << nilai << endl;
+    }
+};
+

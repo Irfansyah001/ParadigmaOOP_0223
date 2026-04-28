@@ -32,5 +32,11 @@ int main()
     elektronik.kategori = "Elektronik";
     elektronik.tanggalProduksi = "2026-04-28";
 
+    Barang nonElektronik; // Membuat objek nonElektronik dari kelas Barang
+    nonElektronik.nama = "Kasur";
+    nonElektronik.jumlah = 10;
+    nonElektronik.kategori = "Non Elektronik";
+    nonElektronik.tanggalProduksi = "2026-03-01";
+
 
 }

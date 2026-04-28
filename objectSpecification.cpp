@@ -38,5 +38,11 @@ int main()
     nonElektronik.kategori = "Non Elektronik";
     nonElektronik.tanggalProduksi = "2026-03-01";
 
+    cout << "Spesifikasi Elektronik: " << endl;
+    elektronik.printSpesifikasi();
+    cout << endl;
 
+    cout << "Spesifikasi Non Elektronik: " << endl;
+    nonElektronik.printSpesifikasi();
+    cout << endl;
 }

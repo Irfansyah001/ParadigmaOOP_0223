@@ -16,3 +16,7 @@ class Mahasiswa // Deklarasi kelas Mahasiswa
     }
 };
 
+int main()
+{
+
+}
